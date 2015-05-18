@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/Unplugged/lib/unpgraphics.js" />
+        <item url="file://$PROJECT_DIR$/Unplugged/lib/unpmenu.js" />
+        <item url="file://$PROJECT_DIR$/Unplugged/lib/unputils.js" />
+        <item url="file://$PROJECT_DIR$/Unplugged/lib/unpclient.js" />
+        <item url="file://$PROJECT_DIR$/Unplugged/lib/unpwarning.js" />
+        <item url="file://$PROJECT_DIR$/Unplugged/lib/test.js" />
+        <item url="file://$PROJECT_DIR$/Unplugged/lib/unpvisualfx.js" />
+        <item url="file://$PROJECT_DIR$/Unplugged/lib/unpnetwork.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/_unpnetwork.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/_unpwarning.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/_unpnetwork.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/_unpwarning.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/unpgraphics.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/unpmenu.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/unputils.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/unpclient.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/unpwarning.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/unpvisualfx.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/test.js" />
+      <root url="file://$PROJECT_DIR$/Unplugged/lib/unpnetwork.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

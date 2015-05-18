@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Generated files">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/test.js" />
+      <root url="file://$PROJECT_DIR$/modules/auth.js" />
+      <root url="file://$PROJECT_DIR$/modules/moveit.js" />
+      <root url="file://$PROJECT_DIR$/modules/chat.js" />
+      <root url="file://$PROJECT_DIR$/lib/unpclient.js" />
+      <root url="file://$PROJECT_DIR$/lib/start.js" />
+      <root url="file://$PROJECT_DIR$/lib/test.js" />
+      <root url="file://$PROJECT_DIR$/lib/unpvisualfx.js" />
+      <root url="file://$PROJECT_DIR$/lib/unpgraphics.js" />
+      <root url="file://$PROJECT_DIR$/lib/unpmenu.js" />
+      <root url="file://$PROJECT_DIR$/lib/unputils.js" />
+      <root url="file://$PROJECT_DIR$/lib/unpwarning.js" />
+      <root url="file://$PROJECT_DIR$/lib/unpnetwork.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

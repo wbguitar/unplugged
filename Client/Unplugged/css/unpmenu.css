@@ -1,0 +1,88 @@
+.unptoolbar-cont.unptoolbar-cont-closed
+{
+	background-color: #2255AA;
+	border-radius: 4em;
+	height: 4em;
+	width: 4em;
+	cursor: pointer;
+	margin-left: -2em;
+	margin-top: -2em;
+}
+
+.unptoolbar-cont.unptoolbar-cont-closed > *
+{
+	display: none !important;
+}
+
+.unptoolbar-button
+{
+    display: inline-block;	
+    margin: 0 0.5em;
+    position: relative;
+	min-width: 5em;
+	text-align: center;
+}
+
+.unptoolbar-button-text
+{
+	z-index: 1;
+    background-color: #2255AA;
+    border-radius: 0 0 0.5em 0.5em;
+    color: white;
+    cursor: pointer;
+	display: block;
+	height: 2.5em;
+    line-height: 2em;
+	padding: 0.5em 0.5em 0 0.5em;
+	top: -0.5em;
+	position: relative;
+}
+
+.unptoolbar-button-menu
+{
+	border: 1px solid #4477BB;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    color: white;
+    display: none;
+    left: 0;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    min-width: 120%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.unptoolbar-button:hover .unptoolbar-button-text,
+.unptoolbar-button.unptoolbar-button-menu-open  .unptoolbar-button-text
+{
+	background-color: #4477BB;
+}
+
+.unptoolbar-button.unptoolbar-button-menu-open .unptoolbar-button-text
+{
+	height: 2.8em;
+	border-radius: 0;
+}
+
+.unptoolbar-button-menu-open .unptoolbar-button-menu
+{
+	display: block;
+}
+
+.unptoolbar-button-menu-element
+{
+	white-space: nowrap;
+	padding: 0.3em 0.5em;
+	cursor: pointer;
+	border-bottom: 1px solid #4477BB;
+}
+
+.unptoolbar-button-menu-element:last-child
+{
+	border-bottom: 0 none;
+}
+
+.unptoolbar-button-menu-element:hover
+{
+	background-color: #2255AA;
+}

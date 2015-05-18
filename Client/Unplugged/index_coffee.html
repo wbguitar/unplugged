@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/coffeescript" src="lib/unputils.coffee"></script>
+	<script type="text/coffeescript" src="lib/unpnetwork.coffee"></script>
+	<script type="text/coffeescript" src="lib/unpgraphics.coffee"></script>
+	<script type="text/coffeescript" src="lib/unpvisualfx.coffee"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/unpwarning.css" >
+	<script type="text/coffeescript" src="lib/unpwarning.coffee"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/unpmenu.css" >
+	<script type="text/coffeescript" src="lib/unpmenu.coffee"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/unpclient.css" >
+    <script type="text/coffeescript" src="lib/unpclient.coffee"></script>
+	
+    <link rel="stylesheet" type="text/css" href="css/auth.css" >
+    <script type="text/coffeescript" src="modules/auth.coffee"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/chat.css" >
+            <script type="text/coffeescript" src="modules/chat.coffee"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/moveit.css" >
+    <script type="text/coffeescript" src="modules/moveit.coffee"></script>
+
+    <script type="text/coffeescript" src="lib/test.coffee"></script>
+
+    <script type="text/javascript" src="js/coffee-script.js"></script>
+
+</head>
+<!--<body onload="UnpClientInit()">-->
+<body>
+    <script type="text/coffeescript">
+        $(document).ready( () ->
+            window.Test.start())
+    </script>
+
+
+	<div id="unp-main">
+		<div id="unpchat-div"></div>
+		<div id="unpmoveit-div"></div>
+	</div>
+	<div id="unptoolbar-div"></div>
+	<div id="unpauth-div"></div>
+	<div id="unp-loading-splash">
+		<div id="unp-loading-inner">Loading...</div>
+	</div>
+	<div id="unp-warning-splash">
+		<div id="unp-warning-inner">
+			<div id="unp-warning-text">
+			</div>
+			<div id="unp-warning-buttons">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

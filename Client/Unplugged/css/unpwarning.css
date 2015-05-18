@@ -1,0 +1,44 @@
+#unp-warning-splash
+{
+	position: absolute;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+	z-index: 1000;
+	display: none;
+}
+
+#unp-warning-inner
+{
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 0.5em;
+	border: 1px solid #2255AA;
+	background-color: black;
+	color: white;
+	padding: 0.5em 1em;
+}
+
+#unp-warning-buttons
+{
+	text-align: center;
+	margin-top: 1em;
+}
+
+.unp-warning-button
+{
+	background-color: #2255AA;
+	border-radius: 0.5em;
+	margin: 0 0.25em;
+	padding: 0.3em 0.5em;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.unp-warning-button:hover
+{
+	background-color: #4477BB;
+}

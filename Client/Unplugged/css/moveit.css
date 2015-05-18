@@ -1,0 +1,30 @@
+.unpmoveit-cont
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+}
+
+.unpmoveit-display
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.unpmoveit-display canvas
+{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.unpmoveit-started .unpmoveit-display canvas
+{
+	display: block;
+}
